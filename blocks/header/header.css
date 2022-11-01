@@ -1,0 +1,10 @@
+.header {
+  margin: 0;
+  padding: 0 68px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Inter', Arial, sans-serif;
+}

@@ -1,0 +1,12 @@
+.footer__copyright {
+  min-width: 340px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+}
