@@ -1,9 +1,8 @@
 .header__link {
-  width: 30px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
   text-align: right;
   text-decoration-line: none;
   color: black;

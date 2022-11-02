@@ -1,0 +1,6 @@
+.intro__content {
+  margin-left: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
