@@ -1,0 +1,7 @@
+.places__title {
+    justify-self: flex-start;
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-size: 31px;
+    font-weight: 700;
+}

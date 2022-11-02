@@ -1,0 +1,10 @@
+.people__table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 245px);
+    justify-content: space-between;
+    row-gap: 42px;
+    column-gap: 14px;
+}
