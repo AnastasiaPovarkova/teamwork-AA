@@ -1,27 +1,27 @@
 .places__content {
-    width: 50%;
-    max-height: 100%;
-    padding: 63px 72px 84px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+  width: 50%;
+  max-height: 100%;
+  padding: 63px 72px 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
-    .places__content {
-        padding: 30px;
-    }
+  .places__content {
+    padding: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .places__content {
-        padding: 10px;
-    }
+  .places__content {
+    padding: 20px 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .places__content {
-        width: 100%;
-    }
+  .places__content {
+    width: 100%;
+  }
 }

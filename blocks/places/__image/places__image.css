@@ -1,19 +1,19 @@
 .places__image {
-    width: 50%;
-    height: 534px;
-    object-fit: cover;
-    object-position: center;
+  width: 50%;
+  height: 534px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 900px) {
-    .places__image {
-        height: 374px;
-    }
+  .places__image {
+    height: 390px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .places__image {
-       width: 100%;
-       margin-bottom: 10px;
-    }
+  .places__image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }

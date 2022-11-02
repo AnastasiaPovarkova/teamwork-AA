@@ -1,6 +1,12 @@
 .people__title {
-    max-width: 402px;
-    margin: 0 0 119px;
-    font-size: 31px;
-    line-height: 1.36;
+  max-width: 402px;
+  margin: 0 0 119px;
+  font-size: 31px;
+  line-height: 1.36;
+}
+
+@media screen and (max-width: 600px) {
+  .people__title {
+    margin-bottom: 42px;
+  }
 }

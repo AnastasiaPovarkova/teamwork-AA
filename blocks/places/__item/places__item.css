@@ -1,19 +1,18 @@
 .places__item {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .places__item:nth-child(2n) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 600px) {
-    .places__item {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .places__item:nth-child(2n) {
-        flex-direction: column;
-    }
-    
+  .places__item {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .places__item:nth-child(2n) {
+    flex-direction: column;
+  }
 }

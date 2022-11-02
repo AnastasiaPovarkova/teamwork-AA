@@ -1,6 +1,6 @@
 .places {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
 }

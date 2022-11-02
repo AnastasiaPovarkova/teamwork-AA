@@ -1,18 +1,17 @@
 .places__text {
-    max-width: 400px;
-    padding: 0;
-    margin: 0 0 21px 0;
-    font-size: 13px;
-    line-height: 1.57;
+  max-width: 400px;
+  padding: 0;
+  margin: 0 0 21px 0;
+  font-size: 13px;
+  line-height: 1.57;
 }
 
 .places__text:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 900px) {
-    .places__text {
-        margin-bottom: 10px;
-    }
-    
+  .places__text {
+    margin-bottom: 10px;
+ }
 }

@@ -1,5 +1,24 @@
 .people {
-    min-height: 626px;
-    padding: 136px 69px 124px;
-    box-sizing: border-box;
+  min-height: 626px;
+  padding: 136px 69px 124px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .people {
+    padding: 42px 84px;
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people {
+    padding: 42px 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .people {
+    padding: 42px 20px;
+  }
 }
