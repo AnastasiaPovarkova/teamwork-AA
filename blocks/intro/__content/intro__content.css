@@ -2,5 +2,23 @@
   margin-left: 68px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 34px;
+}
+
+@media screen and (max-width: 900px) {
+  .intro__content {
+    margin-left: 34px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__content {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__content {
+    gap: 20px;
+  }
 }

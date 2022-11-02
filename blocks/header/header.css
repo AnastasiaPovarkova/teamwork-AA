@@ -4,7 +4,25 @@
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0 34px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
 }

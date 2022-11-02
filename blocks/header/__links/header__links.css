@@ -1,14 +1,15 @@
-.header__link {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: right;
-  text-decoration-line: none;
-  color: black;
-  transition: opacity 0.3s;
+.header__links {
+  display: flex;
+  gap: 35px;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
 }
 
-.header__link:hover {
-    opacity: 0.7;
+@media screen and (max-width: 600px) {
+  .header__links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 }

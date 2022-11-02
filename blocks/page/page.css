@@ -9,3 +9,9 @@
   justify-content: center;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 600px) {
+  .page {
+    padding: 24px 0 0;
+  }
+}
