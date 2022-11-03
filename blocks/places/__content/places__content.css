@@ -22,9 +22,10 @@
 
 @media screen and (max-width: 600px) {
   .places__content {
+    padding-top: 20px;
     width: 100%;
     position: relative;
     top: -70px;
-    background: linear-gradient(0deg, #f2f2f2 80%, transparent);
+    background: linear-gradient(0deg, #f2f2f2 85%, transparent);
   }
 }

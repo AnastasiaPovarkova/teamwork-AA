@@ -8,5 +8,5 @@ burger.addEventListener("click", (event) => {
 
   burger.classList.toggle("burger_active");
   headerNav.classList.toggle("header__nav_active");
-  page.classList.toggle("page__no-scroll")
+  page.classList.toggle("page_no-scroll")
 })

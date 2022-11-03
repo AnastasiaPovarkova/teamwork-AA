@@ -3,7 +3,7 @@
 
 /* Page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_no-scroll/page__no-scroll.css);
+@import url(../blocks/page/_no-scroll/page_no-scroll.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
