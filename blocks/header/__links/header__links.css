@@ -9,7 +9,7 @@
 @media screen and (max-width: 600px) {
   .header__links {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     text-align: center;
   }
 }

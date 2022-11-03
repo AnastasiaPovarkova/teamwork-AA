@@ -2,16 +2,17 @@
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto 0;
-  padding: 48px 0 0;
+  padding: 42px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
   .page {
-    padding: 24px 0 0;
+    padding: 0;
   }
 }

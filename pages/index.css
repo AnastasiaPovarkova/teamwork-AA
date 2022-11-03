@@ -1,14 +1,22 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* font?? временно*/
 
+/* Page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_no-scroll/page__no-scroll.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_right/header__link_right.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/__nav_active/header__nav_active.css);
+
+/* Burger */
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/_active/burger_active.css);
 
 /* Intro */
 @import url(../blocks/intro/intro.css);
@@ -22,7 +30,6 @@
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__content/places__content.css);
-@import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__text/places__text.css);
 
@@ -39,7 +46,10 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-* {
-    /*outline: 1px solid red;*/
-    font-family: 'Montserrat', sans-serif;
-}
+/* Hide */
+@import url(../blocks/hide/hide.css);
+
+/* * {
+    outline: 1px solid red;
+} */
+

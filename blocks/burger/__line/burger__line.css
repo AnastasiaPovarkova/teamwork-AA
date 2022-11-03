@@ -1,0 +1,53 @@
+.burger__line {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  z-index: 1000;
+  width: 42px;
+  height: 3px;
+  font-size: 0;
+  background-color: #000;
+  box-shadow: 0 0 5px #fff;
+  cursor: pointer;
+  transition: background-color .2s linear, box-shadow .2s linear;
+}
+
+.burger:hover .burger__line {
+  background-color: transparent;
+  box-shadow: 0 0 5px transparent;
+}
+
+.burger__line::before,
+.burger__line::after {
+  content: '';
+  position: absolute;
+  z-index: 1000;
+  width: 21px;
+  height: 3px;
+  background-color: #000;
+  box-shadow: 0 0 5px #fff;
+  transform-origin: 50%;
+  transition: top .2s linear, transform .2s linear, width .2s linear;
+}
+
+.burger__line::before {
+  top: 9px;
+  left: 0;
+}
+
+.burger:hover .burger__line::before {
+  width: 42px;
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.burger__line::after {
+  top: -9px;
+  right: 0;
+}
+
+.burger:hover .burger__line::after {
+  width: 42px;
+  transform: rotate(45deg);
+  top: 0;
+}

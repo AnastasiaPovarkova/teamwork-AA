@@ -1,28 +1,29 @@
 .header {
   margin: 0;
-  padding: 0 68px 0;
+  padding: 6px 68px;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background: linear-gradient(180deg, #fff 80%, transparent);
 }
 
 @media screen and (max-width: 900px) {
   .header {
-    padding: 0 34px 0;
+    padding: 6px 34px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 0 15px 0;
+    padding: 6px 15px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header {
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+    padding: 0;
+    background: transparent;
   }
 }

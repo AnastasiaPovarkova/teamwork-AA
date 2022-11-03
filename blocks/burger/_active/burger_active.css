@@ -1,0 +1,16 @@
+.burger_active .burger__line {
+  background-color: transparent;
+  box-shadow: 0 0 5px transparent;
+}
+
+.burger_active .burger__line::before {
+  width: 42px;
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.burger_active .burger__line::after {
+  width: 42px;
+  transform: rotate(45deg);
+  top: 0;
+}

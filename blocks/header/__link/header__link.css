@@ -1,6 +1,6 @@
 .header__link {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
   text-align: right;
   text-decoration-line: none;
@@ -15,5 +15,6 @@
 @media screen and (max-width: 600px) {
   .header__link {
     text-align: center;
+    font-size: 24px;
   }
 }
