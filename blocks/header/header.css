@@ -6,7 +6,7 @@
   position: sticky;
   z-index: 1000;
   top: 0;
-  background: linear-gradient(180deg, #fff 80%, transparent);
+  background: #fff;
 }
 
 @media screen and (max-width: 900px) {

@@ -9,6 +9,14 @@
   line-height: 34px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    font-size: 28px;
+    line-height: 26px;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .footer__copyright {
     font-size: 18px;

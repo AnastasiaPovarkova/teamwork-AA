@@ -5,6 +5,12 @@
   line-height: 1.36;
 }
 
+@media screen and (max-width: 900px) {
+  .people__title {
+    margin: 0 0 60px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .people__title {
     margin-bottom: 42px;

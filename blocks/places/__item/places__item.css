@@ -1,6 +1,7 @@
 .places__item {
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
 
 .places__item:nth-child(2n) {
@@ -9,7 +10,7 @@
 
 @media screen and (max-width: 600px) {
   .places__item {
-    box-shadow: 0 -5px 5px #0004;
+    /*box-shadow: 0 -5px 5px #0004;*/
     flex-direction: column;
   }
 

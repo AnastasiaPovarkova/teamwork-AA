@@ -5,6 +5,12 @@
   font-size: 10px;
 }
 
+@media screen and (max-width: 900px) {
+  .people__uptitle {
+    margin-bottom: 24px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .people__uptitle {
     margin-bottom: 20px;

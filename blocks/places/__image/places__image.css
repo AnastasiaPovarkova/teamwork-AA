@@ -3,6 +3,7 @@
   height: 534px;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.3s;
 }
 
 @media screen and (max-width: 900px) {
@@ -14,6 +15,9 @@
 @media screen and (max-width: 600px) {
   .places__image {
     width: 100%;
-    margin-bottom: 10px;
   }
+}
+
+.places__image:hover {
+  transform: scale(1.1);
 }
