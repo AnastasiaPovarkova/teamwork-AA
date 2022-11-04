@@ -11,11 +11,11 @@
   cursor: pointer;
   transition: background-color .2s linear, box-shadow .2s linear;
 }
-
+/*
 .burger:hover .burger__line {
   background-color: transparent;
   box-shadow: 0 0 5px transparent;
-}
+} */
 
 .burger__line::before,
 .burger__line::after {
@@ -34,20 +34,20 @@
   top: 9px;
   left: 0;
 }
-
+/*
 .burger:hover .burger__line::before {
   width: 42px;
   transform: rotate(-45deg);
   top: 0;
-}
+} */
 
 .burger__line::after {
   top: -9px;
   right: 0;
 }
-
+/*
 .burger:hover .burger__line::after {
   width: 42px;
   transform: rotate(45deg);
   top: 0;
-}
+} */
