@@ -1,7 +1,6 @@
 .places__item {
   display: flex;
   width: 100%;
-  overflow: hidden;
 }
 
 .places__item:nth-child(2n) {
