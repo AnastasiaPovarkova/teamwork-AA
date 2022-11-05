@@ -21,8 +21,7 @@
 @media screen and (max-width: 600px) {
   .intro__content {
     margin: 0;
-    padding: 24px;
-    padding-bottom: 30px;
+    padding: 20px 24px 0;
     box-sizing: border-box;
     gap: 14px;
   }

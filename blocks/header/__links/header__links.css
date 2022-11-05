@@ -1,9 +1,11 @@
 .header__links {
-  display: flex;
-  gap: 35px;
+  margin: 0;
   padding: 0;
   list-style-type: none;
-  margin: 0;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  align-content: center;
 }
 
 @media screen and (max-width: 600px) {

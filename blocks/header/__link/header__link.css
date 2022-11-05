@@ -6,6 +6,7 @@
   text-decoration-line: none;
   color: black;
   transition: opacity 0.3s;
+  display: flex;
 }
 
 .header__link:hover {
